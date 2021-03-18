@@ -48,7 +48,6 @@ img {
   width: 95%;
   height: 100%;
   margin: 0 auto;
-  border: 2px solid lime;
 }
 
 .header {
@@ -82,7 +81,6 @@ img {
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
-  border: 2px solid lightblue;
   position: relative;
   height: 100%;
   padding: 10px 0;
