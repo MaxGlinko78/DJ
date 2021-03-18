@@ -33,14 +33,6 @@ img {
   cursor: pointer;
 }
 
-.header {
-  margin: 0 auto;
-  max-width: 1440px;
-  width: 95%;
-  height: 80px;
-  background-color: black;
-}
-
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,6 +51,14 @@ img {
   border: 2px solid lime;
 }
 
+.header {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 95%;
+  height: 80px;
+  background-color: black;
+}
+
 .logo {
   color: white;
 }
@@ -69,32 +69,59 @@ img {
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
+  border: 2px solid lightblue;
+  position: relative;
+  height: 100%;
+  padding: 10px 0;
 }
 
 .items {
   list-style: none;
 }
 
-.leader-link {
+.header-link {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  margin-left: 45px;
+  letter-spacing: 0.2em;
+  margin-left: 10px;
   text-transform: uppercase;
+  padding: 10px;
 }
 
-.leader-link span {
+.header-link span {
   color: #55ACEE;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
 }
 
-.leader-link span:hover {
+.header-link span:hover {
+  color: #4169E1;
+  font-weight: 600;
   background: linear-gradient(-92deg, #C837AB 0%, #55ACEE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.active {
+  color: #4169E1;
+  font-weight: 600;
+  padding: 10px;
+  background: white;
+  border-radius: 40%;
+}
+
+.indicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(-92deg, #C837AB 0%, #55ACEE);
+  border-radius: 3px 3px 0 0;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .phone-link {
