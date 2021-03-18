@@ -1,4 +1,5 @@
 .header {
+    position: relative;
     margin: 0 auto;
     max-width: 1440px;
     width: 95%;
@@ -6,7 +7,17 @@
     background-color: black;
 }
 
+.header-image {
+    position: absolute;
+    top: 0;
+    left: 2%;
+}
 
+.header-image__rev {
+    position: absolute;
+    top: 0;
+    right: 2%;
+}
 
 .logo {
     color: white;

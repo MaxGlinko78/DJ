@@ -1,5 +1,3 @@
-"use strict";
-
 let headerLink = document.querySelectorAll(".items a"),
   ind = document.querySelector(".indicator");
 
