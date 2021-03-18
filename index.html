@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <script src="js/main.js" defer></script>
     <title>DJ-S.E.M</title>
@@ -38,13 +40,77 @@
                     <div class="indicator"></div>
                 </ul>
             </nav>
-            <a href="tel: +79161985899" class="phone-link"> +7(916) 198 58-99</a>
+            <a href="tel: +79161985899" class="phone-link"> +7 (916) 198 58-99</a>
         </div>
     </header>
+    <main class="hero">
+        <img src="img/wave.png" alt="" class="wave">
+
+
+        <div class="container container-hero ">
+            <div class="box hero-content__box-1">
+                <h1 class="content__box-1--title">DJ S.E.M.</h1>
+                <div class="content__box-1--subtitle">Чтобы праздник
+                    звучал ярко и интересно</div>
+
+                <div class="btn-wrapp btn">
+                    <button class="btn-link">Shane Button</button>
+                </div>
+
+            </div>
+            <div class="box hero-content__box-2">
+                <div class="content__box-2--title">Приветствую гостей
+                    нашего сайта!</div>
+                <img src="img/micsher.png" alt="" class="miksher">
+            </div>
+            <div class="box hero-content__box-3">
+                <img src="img/image-1.png" alt="" class="hero-image">
+            </div>
+
+
+        </div>
+
+    </main>
 
 
 
 
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /*loop through a collection of all HTML elements:*/
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {
+                                elmnt.innerHTML = this.responseText;
+                            }
+                            if (this.status == 404) {
+                                elmnt.innerHTML = "Page not found.";
+                            }
+                            /*remove the attribute, and call this function once more:*/
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                }
+            }
+        }
+    </script>
+    <script>
+        includeHTML();
+    </script>
 
     <script src="js/main.js"></script>
 </body>

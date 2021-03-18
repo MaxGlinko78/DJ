@@ -6,8 +6,8 @@ body {
     overflow-anchor: none;
     margin: 0;
     padding: 0;
-    font-family: "Jost", sans-serif;
-    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+
     // color: var(--color-dark);
     // background-color: var(--color-white);
 }
@@ -15,6 +15,16 @@ body {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -34,6 +44,18 @@ img {
     cursor: pointer;
 }
 
+
+main,
+section,
+footer {
+    max-width: 1440px;
+    width: 95%;
+    height: 780px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -43,5 +65,5 @@ img {
     width: 95%;
     height: 100%;
     margin: 0 auto;
-    //border: 2px solid lime;
+    border: 2px solid lime;
 }

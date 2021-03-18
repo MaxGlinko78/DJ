@@ -44,25 +44,24 @@
 }
 
 .header-link {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.2em;
     margin-left: 10px;
     text-transform: uppercase;
     //border: 2px solid red;
     padding: 10px;
 
     span {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.2em;
         color: #55ACEE;
         transition: .5s ease-in-out;
 
 
         &:hover {
             color: #4169E1;
-            font-weight: 600;
             background: linear-gradient(-92deg, #C837AB 0%, #55ACEE);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -97,7 +96,7 @@
 
 
 .phone-link {
-    font-family: Roboto;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
