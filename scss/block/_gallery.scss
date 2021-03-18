@@ -1,0 +1,129 @@
+.wrapper {
+    display: flex;
+
+}
+
+.sidebar {
+    position: relative;
+    height: 580px;
+    background: #000000;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    .rec-4 {
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;
+        transition: .5s;
+
+        &:hover {
+            transform: rotate(-55deg);
+
+            box-shadow: -5px 5px 20px 12px rgba(255, 255, 255, 0.2);
+        }
+    }
+}
+
+.gallery-wrapper__title {
+    margin-bottom: 15px;
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.gallery-wrapper__title:after {
+    content: '';
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 5px;
+    background: white;
+}
+
+.date-box {
+
+    margin-bottom: 10px;
+
+    span {
+        margin-left: 10px;
+    }
+}
+
+.gallery-content {
+
+    width: 750px;
+    border: 2px solid orangered;
+}
+
+
+.title-wrapp {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    position: relative;
+    width: 600px;
+    height: 50px;
+
+}
+
+.title-box {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #55ACEE 0%, #C837AB 100%);
+    filter: blur(20px);
+}
+
+.title-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 5;
+}
+
+
+
+.image-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.box-item {
+    width: 150px;
+    height: 150px;
+    transition: .5s;
+
+    &:hover {
+        transform: scale(2.2);
+        box-shadow: -5px 5px 20px 12px rgba(255, 255, 255, 0.2);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
