@@ -1,4 +1,6 @@
 .header {
+    display: flex;
+    align-items: center;
     position: relative;
     margin: 0 auto;
     max-width: 1440px;
@@ -6,6 +8,14 @@
     height: 80px;
     background-color: black;
 }
+
+.header-wrapp {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 .header-image {
     position: absolute;
@@ -23,73 +33,74 @@
     color: white;
 }
 
-
-
-.header-nav {
-    display: flex;
-    align-self: center;
-    //border: 2px solid lightblue;
+.menu {
     position: relative;
-    height: 100%;
-    padding: 10px 0;
-
-
 
 }
 
-.items {
+.menu ul {
     list-style: none;
-
-
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-.header-link {
-    margin-left: 10px;
-    text-transform: uppercase;
-    //border: 2px solid red;
-    padding: 10px;
+.menu a span {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #55ACEE;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    transition: .3s;
+}
 
-    span {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.2em;
-        color: #55ACEE;
-        transition: .5s ease-in-out;
+.menu a:hover span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #55ACEE;
+    transition: .5s ease-in-out;
 
-
-        &:hover {
-            color: #4169E1;
-            background: linear-gradient(-92deg, #C837AB 0%, #55ACEE);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
+    &:hover {
+        color: #4169E1;
+        background: linear-gradient(-92deg, #C837AB 0%, #55ACEE);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
-.active {
-    //transition: .5s;
-    color: #4169E1;
-    font-weight: 600;
-    padding: 10px;
-    background: rgba(255, 255, 255, 1);
-    border-radius: 40%;
+.current a {
+    color: orange;
 }
 
+.active {
+    transition: .5s;
+    border: 2px solid white;
+    //border-bottom: 3px solid #4169E1;
+
+
+}
+
+
+
+// // }
 .indicator {
+    height: 5px;
+    background: linear-gradient(-92deg, #C837AB 0%, #55ACEE);
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 5px;
-    background: linear-gradient(-92deg, #C837AB 0%, #55ACEE);
     border-radius: 3px 3px 0 0;
-    transition: .5s;
-
-
+    transition: 0.5s;
 }
+
+
+
 
 
 

@@ -50,17 +50,14 @@ section,
 footer {
     max-width: 1440px;
     width: 95%;
-    height: 780px;
+    height: auto;
     background-color: black;
     margin: 0 auto;
     margin-top: 10px;
+    padding-bottom: 50px;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
     max-width: 1240px;
     width: 95%;
     height: 100%;

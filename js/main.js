@@ -1,23 +1,17 @@
-let headerLink = document.querySelectorAll(".items a"),
-  ind = document.querySelector(".indicator");
+// let links = document.querySelectorAll(".menu a"),
+//   ind = document.querySelector(".indicator");
 
-headerLink.forEach((item) => {
-  item.addEventListener("click", (e) => {
-    moveInd(e.target);
-  });
-});
-
-function moveInd(el) {
-  ind.style.width = `${el.offsetWidth}px `;
-  ind.style.left = `${el.offsetLeft}px `;
-}
-
-// const headerNav = document.querySelector(".header-nav");
-
-// console.log(headerNav);
-
-// headerNav.addEventListener("click", (items) => {
-//   const target = items.target;
-
-//   target.classList.add("active");
+// links.forEach((item) => {
+//   //event.preventDefault();
+//   item.addEventListener("click", (e) => {
+//     item.classList.add("active");
+//     moveInd(e.target);
+//   });
 // });
+
+// function moveInd(el) {
+//   ind.style.width = `${el.offsetWidth}px`;
+//   ind.style.left = `${el.offsetLeft}px`;
+// }
+
+//const menuLinks = document.querySelectorAll(".menu a");
