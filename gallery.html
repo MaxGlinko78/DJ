@@ -67,68 +67,106 @@
                 <div class="gallery-content">
                     <div class="title-wrapp">
                         <div class="title-box"></div>
-                        <h3 class="title-text">Моя галерея</h3>
+                        <h3 class="title-text">Моя Галерея</h3>
+
                     </div>
 
-                    <div class="video-content__wrapper">
+                    <div class="item-box">
+                        <figure>
+                            <div class="box-item">
+                                <img src="img/gallery-1.jpg" alt="" class="galleri-item">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="box-item">
+                                <img src="img/gallery-2.jpg" alt="" class="galleri-item">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="box-item">
+                                <img src="img/gallery-3.jpg" alt="" class="galleri-item">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="box-item">
+                                <img src="img/gallery-4.jpg" alt="" class="galleri-item">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="box-item">
+                                <img src="img/gallery-5.jpg" alt="" class="galleri-item">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="box-item">
+                                <img src="img/gallery-6.jpg" alt="" class="galleri-item">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="box-item">
+                                <img src="img/gallery-6.jpg" alt="" class="galleri-item">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="box-item">
+                                <img src="img/gallery-7.jpg" alt="" class="">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="box-item">
+                                <img src="img/gallery-8.jpg" alt="" class="">
+                            </div>
+                        </figure>
 
-                        <h4>Галерея скоро заполнится</h4>
-
-
-                        <div class="video-wrapp">
-                            <video src="video/video-2.mp4" controls></video>
-                        </div>
-                        <div class="video-wrapp">
-                            <video src="video/video-4.mp4" controls></video>
-                        </div>
                     </div>
-
 
                 </div>
+                <!-- content -->
             </div>
+            <nav aria-label="page-navigation">
+                <ul class="pagination">
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">стр - 1 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">стр - 2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">стр - 3</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="fly-social">
+                <ul class="fly-social__box">
+                    <li class="fly-social__item"><a href="#" class="fly-social__link" href="#">
+                            <img src="img/svg/youtube.svg" alt="" class="social-img">
 
 
+                        </a></li>
+                    <li class="fly-social__item"><a href="#" class="fly-social__link" href="#">
+                            <img src="img/svg/whatsup.svg" alt="" class="social-img">
+                        </a></li>
+                    <li class="fly-social__item"><a href="#" class="fly-social__link" href="#">
+                            <img src="img/svg/insta.svg" alt="" class="social-img">
+                        </a></li>
+                    <li class="fly-social__item"><a href="#" class="fly-social__link" href="#">
+                            <img src="img/svg/vk.svg" alt="" class="social-img">
+
+                        </a></li>
+                    <!-- <li class="fly-social__item"><a href="#" class="fly-social__link" href="#"><i
+                                class="fa fa-instagram" aria-hidden="true"></i></a></li> -->
+                </ul>
+            </div>
+            <button class="btn-link">Отправить заявку</button>
+
+        </div>
+    </footer>
 
 
-
-    <script>
-        function includeHTML() {
-            var z, i, elmnt, file, xhttp;
-            /*loop through a collection of all HTML elements:*/
-            z = document.getElementsByTagName("*");
-            for (i = 0; i < z.length; i++) {
-                elmnt = z[i];
-                /*search for elements with a certain atrribute:*/
-                file = elmnt.getAttribute("w3-include-html");
-                if (file) {
-                    /*make an HTTP request using the attribute value as the file name:*/
-                    xhttp = new XMLHttpRequest();
-                    xhttp.onreadystatechange = function () {
-                        if (this.readyState == 4) {
-                            if (this.status == 200) {
-                                elmnt.innerHTML = this.responseText;
-                            }
-                            if (this.status == 404) {
-                                elmnt.innerHTML = "Page not found.";
-                            }
-                            /*remove the attribute, and call this function once more:*/
-                            elmnt.removeAttribute("w3-include-html");
-                            includeHTML();
-                        }
-                    }
-                    xhttp.open("GET", file, true);
-                    xhttp.send();
-                    /*exit the function:*/
-                    return;
-                }
-            }
-        }
-    </script>
-    <script>
-        includeHTML();
-    </script>
 
     <script src="js/main.js"></script>
 </body>

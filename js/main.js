@@ -15,3 +15,4 @@
 // }
 
 //const menuLinks = document.querySelectorAll(".menu a");
+AOS.init();
