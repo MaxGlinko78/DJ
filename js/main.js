@@ -15,4 +15,7 @@
 // }
 
 //const menuLinks = document.querySelectorAll(".menu a");
+
+var rellax = new Rellax(".rellax");
+
 AOS.init();

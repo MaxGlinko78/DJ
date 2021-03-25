@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wrapp-about {
     display: flex;
     align-items: center;
@@ -99,4 +100,107 @@
 
 .second-section__text-3 {
     width: 450px;
+=======
+.wrapp-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.gallery-content__about {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.wrapp-about {
+    width: 1024px;
+}
+
+.title-about {
+    width: 200px;
+
+    .title-text {
+        margin: 0;
+    }
+}
+
+.about-text {
+    left: 25%;
+}
+
+.about-hello {
+    font-size: 20px;
+    color: white;
+}
+
+.first-section {
+    display: flex;
+
+}
+
+.picture {
+    margin: 0 auto;
+    width: 330px;
+    height: 430px;
+    margin-right: 50px;
+}
+
+.about-me__title {
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-shadow: 0 0 5px #55ACEE, 0 0 10px #55ACEE, 0 0 20px #55ACEE, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+
+}
+
+.about-me__title:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    width: 60%;
+    height: 2px;
+    background: linear-gradient(-92deg, #C837AB 0%, #55ACEE);
+
+}
+
+.about-me {
+    width: 550px;
+    height: 255px;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.165em;
+    color: #FFFFFF;
+}
+
+.section-text__box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.second-section__text-1 {
+    margin-top: 20px;
+    width: 345px;
+    height: 165px;
+
+    .systems {
+        margin-top: 20px;
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
+.second-section__text-2 {
+    align-self: flex-end;
+    width: 385px;
+    margin-bottom: 30px;
+}
+
+.second-section__text-3 {
+    width: 450px;
+>>>>>>> 81ccddaa6271741012cfacc2ead38f8f95f02ca3
 }

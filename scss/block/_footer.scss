@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer {
     display: flex;
     align-items: center;
@@ -94,4 +95,102 @@ ul.fly-social__box li.fly-social__item a.fly-social__link .fa {
 
 // ul.fly-social__box li.fly-social__item:nth-child(5) a.fly-social__link:hover .fa {
 //     color: #bc2a8d;
+=======
+.footer {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    padding: 20px 0 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1240px;
+    margin: 0 auto;
+
+}
+
+
+.fly-social {}
+
+.fly-social__box {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.fly-social__item {
+    list-style: none;
+}
+
+.fly-social__link {
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .2s;
+    box-shadow: 0 0 5px #55acee, 0 0 10px #55acee, 0 0 10px #55acee, 0 0 15px #0000ff, 0 0 20px #0000ff, 0 0 25px #0000ff, 0 0 30px #0000ff, 0 0 40px #0000ff;
+}
+
+.social-img {
+    width: 30px;
+    height: 40px;
+}
+
+
+ul.fly-social__box li.fly-social__item a.fly-social__link:hover {
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.808);
+}
+
+ul.fly-social__box li.fly-social__item a.fly-social__link .fa {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(0deg, #fff, #ddd);
+    border: 2px solid;
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size: 24px;
+    color: #262626;
+    transition: .2s;
+
+}
+
+
+// ul.fly-social__box li.fly-social__item:nth-child(1) a.fly-social__link:hover .fa {
+//     color: #3b5998;
+// }
+
+// ul.fly-social__box li.fly-social__item:nth-child(2) a.fly-social__link:hover .fa {
+//     color: #00aced;
+// }
+
+// ul.fly-social__box li.fly-social__item:nth-child(3) a.fly-social__link:hover .fa {
+//     color: #dd4b39;
+// }
+
+// ul.fly-social__box li.fly-social__item:nth-child(4) a.fly-social__link:hover .fa {
+//     color: #007bb6;
+
+// }
+
+// ul.fly-social__box li.fly-social__item:nth-child(5) a.fly-social__link:hover .fa {
+//     color: #bc2a8d;
+>>>>>>> 81ccddaa6271741012cfacc2ead38f8f95f02ca3
 // }

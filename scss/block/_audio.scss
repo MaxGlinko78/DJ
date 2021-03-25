@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h4 {
     text-align: center;
     margin-bottom: 50px;
@@ -80,4 +81,88 @@ audio {
 
 .audio::-webkit-media-controls-return-to-realtime-button {}
 
+=======
+h4 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.audio-box {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+
+
+
+.speaker {
+    width: 50px;
+    margin: 0px 30px 0px 20px;
+}
+
+audio {
+    width: 95%;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-right: 20px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    transition: .5s;
+
+    &:hover {
+        border: none;
+        box-shadow: 0px 0px 60px 2px rgba(255, 255, 255, 1.0);
+    }
+
+}
+
+
+
+
+
+
+.audio::-webkit-media-controls-panel {
+
+    background-color: #49434F;
+
+
+    padding: 30px;
+    border: 2px solid red;
+}
+
+.audio::-webkit-media-controls-mute-button {}
+
+.audio::-webkit-media-controls-play-button {}
+
+.audio::-webkit-media-controls-timeline-container {}
+
+.audio::-webkit-media-controls-current-time-display {}
+
+.audio::-webkit-media-controls-time-remaining-display {}
+
+.audio::-webkit-media-controls-timeline {}
+
+.audio::-webkit-media-controls-volume-slider-container {}
+
+.audio::-webkit-media-controls-volume-slider {}
+
+.audio::-webkit-media-controls-seek-back-button {}
+
+.audio::-webkit-media-controls-seek-forward-button {}
+
+.audio::-webkit-media-controls-fullscreen-button {}
+
+.audio::-webkit-media-controls-rewind-button {}
+
+.audio::-webkit-media-controls-return-to-realtime-button {}
+
+>>>>>>> 81ccddaa6271741012cfacc2ead38f8f95f02ca3
 .audio::-webkit-media-controls-toggle-closed-captions-button {}

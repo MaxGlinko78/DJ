@@ -209,6 +209,7 @@ section {
 
 .record {
   position: absolute;
+  z-index: 5;
 }
 
 .rec-1 {
@@ -219,8 +220,8 @@ section {
 .rec-2 {
   width: 120px;
   height: 120px;
-  left: 255px;
-  top: 603px;
+  left: 355px;
+  top: 400px;
   border: 2px solid white blur;
   border-radius: 50%;
   -webkit-filter: drop-shadow(-2px 2px 20px #FFFFFF);
@@ -435,6 +436,15 @@ section {
   z-index: 5;
 }
 
+<<<<<<< HEAD
+.hero-image {
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+}
+
+=======
+>>>>>>> 81ccddaa6271741012cfacc2ead38f8f95f02ca3
 .gallery {
   background-image: url(../../img/gallery-bg.png);
   background-position: center, center;

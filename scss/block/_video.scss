@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .video {
     background-image: url(../../img/gallery-bg.png);
     background-position: center, center;
@@ -39,4 +40,47 @@
         width: 100%;
         height: 100%;
     }
+=======
+.video {
+    background-image: url(../../img/gallery-bg.png);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.video-box {
+    align-self: flex-start;
+    width: 230px;
+    height: auto;
+    padding: 15px;
+    transition: .5s;
+
+    &:hover {
+
+        box-shadow: -5px 5px 20px 12px rgba(255, 255, 255, 0.2);
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.video-content__wrapper {
+    color: aliceblue;
+
+
+}
+
+.video-wrapp {
+    width: 100%;
+    height: 500px;
+
+
+    video {
+        width: 100%;
+        height: 100%;
+    }
+>>>>>>> 81ccddaa6271741012cfacc2ead38f8f95f02ca3
 }

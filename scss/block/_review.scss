@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .reviewes-wrapp {}
 
 .reviewes-box {
@@ -19,4 +20,27 @@
 
 .rev-box__answer {
     text-align: right;
+=======
+.reviewes-wrapp {}
+
+.reviewes-box {
+    border: 2px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.rev-box__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.rev-box__text {
+    margin-bottom: 30px;
+}
+
+.rev-box__answer {
+    text-align: right;
+>>>>>>> 81ccddaa6271741012cfacc2ead38f8f95f02ca3
 }
